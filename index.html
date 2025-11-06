@@ -18,6 +18,60 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+
+<div class="modalcss">
+  <div class="modalformbg">
+    <div class="iconclose">
+      <svg class="closeicon">
+        <use xlink:href="./images/SVG-sprite/icons.svg#icon-close"></use>
+      </svg>
+    </div>
+
+    <div class="formheadercss">
+      Leave your contacts and we will call you back
+    </div>
+
+    <div class="modalformcssdiv">
+      <form class="modalformcss" action="form">
+        <div class="textnamecss">
+          <label class="formlabels" for="name">Name</label>
+          <svg class="icon-personcss">
+            <use xlink:href="./images/SVG-sprite/icons.svg#icon-person"></use>
+          </svg>
+          <input class="textboxcss" type="text" name="name" autofocus />
+        </div>
+
+        <div class="texttelcss">
+          <label class="formlabels" for="tel">Phone</label>
+          <svg class="icon-phonecss">
+            <use xlink:href="./images/SVG-sprite/icons.svg#icon-phone"></use>
+          </svg>
+          <input class="textboxcss" type="tel" name="tel" />
+        </div>
+
+        <div class="textemailcss">
+          <label class="formlabels" for="email">Email</label>
+          <svg class="icon-emailcss">
+            <use xlink:href="./images/SVG-sprite/icons.svg#icon-email"></use>
+          </svg>
+          <input class="textboxcss" type="email" name="email" />
+        </div>
+
+        <label class="formlabels" for="comment">Comment</label>
+        <textarea class="textareacss" name="comment" id="FormComment" placeholder="Text input"></textarea>
+
+        <label class="formlabels"><input type="checkbox" /> I accept the terms and conditions
+          of the Privacy Policy</label>
+        <button class="formbuttoncss" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
     <div class="container">
       <header class="headercss">
         <div class="logocss">
@@ -50,55 +104,6 @@
       </header>
 
       <main>
-        <div class="modalcss">
-          <div class="modalformbg">
-            <div class="iconclose">
-              <svg class="closeicon">
-                <use xlink:href="./images/SVG-sprite/icons.svg#icon-close"></use>
-              </svg>
-            </div>
-        
-            <div class="formheadercss">
-              Leave your contacts and we will call you back
-            </div>
-        
-            <div class="modalformcssdiv">
-              <form class="modalformcss" action="form">
-                <div class="textnamecss">
-                  <label class="formlabels" for="name">Name</label>
-                  <svg class="icon-personcss">
-                    <use xlink:href="./images/SVG-sprite/icons.svg#icon-person"></use>
-                  </svg>
-                  <input class="textboxcss" type="text" name="name" autofocus />
-                </div>
-        
-                <div class="texttelcss">
-                  <label class="formlabels" for="tel">Phone</label>
-                  <svg class="icon-phonecss">
-                    <use xlink:href="./images/SVG-sprite/icons.svg#icon-phone"></use>
-                  </svg>
-                  <input class="textboxcss" type="tel" name="tel" />
-                </div>
-        
-                <div class="textemailcss">
-                  <label class="formlabels" for="email">Email</label>
-                  <svg class="icon-emailcss">
-                    <use xlink:href="./images/SVG-sprite/icons.svg#icon-email"></use>
-                  </svg>
-                  <input class="textboxcss" type="email" name="email" />
-                </div>
-        
-                <label class="formlabels" for="comment">Comment</label>
-                <textarea class="textareacss" name="comment" id="FormComment" placeholder="Text input"></textarea>
-                <label class="formlabels"><input type="checkbox" /> I accept the terms and conditions
-                  of the Privacy Policy</label>
-                <button class="formbuttoncss" type="submit">Send</button>
-              </form>
-            </div>
-          </div>
-        </div>
-
-
         <div>
           <section class="bannercss section">
             <div class="h1css">

@@ -93,8 +93,6 @@ a:hover {
   margin-top: 22px;
 }
 
-
-
 .addresscss {
   display: flex;
   gap: 40px;
@@ -143,6 +141,7 @@ a:hover {
   background-blend-mode: darken;
   background-image: url(../images/people-office\ 1.jpg);
   background-size: cover;
+  height: 600px;
 }
 
 .h1css {
@@ -156,10 +155,11 @@ a:hover {
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1;
+  margin-top: 60px;
 }
 
 .btncss {
-  padding-top: 60px;
+  padding-top: 65px;
   padding-left: 630px;
 }
 
@@ -514,7 +514,7 @@ a:hover {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  border: 1px solid #31D0AA;
+  border: 1px solid #31d0aa;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -527,11 +527,11 @@ a:hover {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.emailboxfooter{
+.emailboxfooter {
   width: 264px;
   height: 40px;
   background-color: transparent;
-  border: 1px solid #31D0AA;
+  border: 1px solid #31d0aa;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -565,7 +565,7 @@ a:hover {
 .susbsbutton:hover {
   width: 165px;
   height: 40px;
-  background-color: #31D0AA;
+  background-color: #31d0aa;
   border-radius: 4px;
   border: none;
   margin-left: 24px;
@@ -582,139 +582,162 @@ a:hover {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.susbscribeicon{
+.susbscribeicon {
   width: 24px;
   padding-top: 6px;
-
 }
 
 
-.modalcss{
+.modalcss {
   width: 1440px;
-  height: 672px;
-  background-color: #2e2f42;
-  background-blend-mode: darken;
-  display: flex;
-  justify-content: center;
-  
+  height: 676px;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: absolute;
+  display: none;
 }
 
-.modalformbg{
+.modalcssis-open {
+  width: 1440px;
+  height: 676px;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: absolute;
+  display: flex;
+}
+
+
+
+.modalformbg {
   width: 408px;
   height: 584px;
   border-radius: 4px;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   margin-top: 80px;
-
+  margin-left: 516px;
 }
 
-.modalformcssdiv{
+.modalformcssdiv {
   margin-top: 16px;
 }
 
-.formheadercss{
+.formheadercss {
   font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
-    margin-top: 35px;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-top: 35px;
 }
 
-.formlabels{
+.formlabels {
   font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    color: #8E8F99;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #8e8f99;
+  position: relative;
 }
 
-.modalformcss{
+.modalformcss {
   display: block;
   width: 360px;
   height: 336px;
   margin: 0 auto;
 }
 
-.textboxcss{
-width: 360px;
-height: 40px;
-border-radius: 4px;
-border: 1px solid #2E2F42;
-outline: none;
-}
-
-.textboxcss:focus{
+.textboxcss {
   width: 360px;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid #4D5AE5;
+  border: 1px solid #2e2f42;
   outline: none;
 }
 
-.icon-personcss{
-  width: 12px;
-  height: 12px;
-  top: 3px;
-  left: 3px;
-  display: flex;
+.textboxcss:focus {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
+
+.icon-personcss {
+  width: 20px;
+  height: 20px;
+  top: 261px;
+  left: 555px;
+  position: absolute;
 }
 
 .icon-phonecss {
-  width: 13px;
-  height: 13px;
-  top: 5px;
-  left: 5px;
-  display: flex;
+  width: 24px;
+  height: 24px;
+  top: 319px;
+  left: 552px;
+  position: absolute;
 }
 
 .icon-emailcss {
-  width: 15px;
-  height: 12px;
-  top: 6px;
-  display: flex;
+  width: 24px;
+  height: 21px;
+  top: 379px;
+  left: 553px;
+  position: absolute;
 }
 
-.textareacss{
+.textareacss {
   width: 360px;
   height: 120px;
   border-radius: 4px;
-  border: 1px solid #2E2F42;
+  border: 1px solid #2e2f42;
   font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
-    color: #2E2F4266;
-    padding-left: 16px;
-    padding-top: 6px;
-
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #2e2f4266;
+  padding-left: 16px;
+  padding-top: 6px;
 }
 
-.formbuttoncss{
+.textareacss:focus {
+  width: 360px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #4d5ae5;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #2e2f4266;
+  padding-left: 16px;
+  padding-top: 6px;
+}
+
+.formbuttoncss {
   display: block;
   margin: 0 auto;
   width: 169px;
   height: 56px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   color: #ffffff;
   border: none;
   border-radius: 4px;
   margin-top: 24px;
 }
 
-.iconclose{
+.iconclose {
   width: 24px;
   height: 24px;
-  border: 1px solid #0000001A;
+  border: 1px solid #0000001a;
   border-radius: 50%;
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   margin-left: 360px;
-  margin-top: 24px;
+  margin-top: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -723,20 +746,18 @@ outline: none;
 .iconclose:hover {
   width: 24px;
   height: 24px;
-  border: 1px solid #0000001A;
+  border: 1px solid #0000001a;
   border-radius: 50%;
-  background-color: #404BBF;
+  background-color: #404bbf;
   margin-left: 360px;
-  margin-top: 24px;
+  margin-top: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
-.closeicon{
+.closeicon {
   width: 8px;
   height: 8px;
 }
-
