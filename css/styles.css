@@ -600,10 +600,8 @@ a:hover {
   position: fixed;
   display: none;
   z-index: 1;
+  
 }
-
-
-
 
 .modalformbg {
   width: 408px;
@@ -647,43 +645,60 @@ a:hover {
   margin: 0 auto;
 }
 
+
 .textboxcss {
   width: 360px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #2e2f42;
   outline: none;
+  padding-left: 40px;
 }
 
-.textboxcss:focus {
+.textboxcss:focus{
   width: 360px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #4d5ae5;
   outline: none;
 }
+.textnamecss:focus-within .icon-personcss,
+.texttelcss:focus-within .icon-phonecss,
+.textemailcss:focus-within .icon-emailcss
+{
+  fill: #4d5ae5;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textnamecss,
+.texttelcss,
+.textemailcss{
+  position: relative;
+}
 
 .icon-personcss {
-  width: 24px;
-  height: 24px;
-  top: 182px;
-  left: 36px;
+  width: 15px;
+  height: 15px;
+  top: 32px;
+  left: 19px;
   position: absolute;
 }
+
 
 .icon-phonecss {
   width: 24px;
   height: 24px;
-  top: 241px;
-  left: 36px;
+  top: 28px;
+  left: 15px;
   position: absolute;
 }
+
 
 .icon-emailcss {
   width: 24px;
   height: 21px;
-  top: 300px;
-  left: 36px;
+  top: 28px;
+  left: 15px;
   position: absolute;
 }
 
@@ -730,6 +745,10 @@ a:hover {
   margin-top: 24px;
 }
 
+.formbuttoncss:hover{
+  background-color:#404bbf ;
+}
+
 .iconclose {
   width: 24px;
   height: 24px;
@@ -754,6 +773,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #ffffff;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
